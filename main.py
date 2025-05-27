@@ -9,7 +9,7 @@ def mostrar_menu():
     print("5. Sair")
 
 def main():
-    criar_tabela()  # Garante que a tabela será criada antes de qualquer ação
+    criar_tabela() 
 
     while True:
         mostrar_menu()
