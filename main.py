@@ -1,4 +1,7 @@
 from db.database import criar_tabela, adicionar, listar, concluir, remover
+from ui.interface import iniciar_interface
+
+criar_tabela()
 
 def mostrar_menu():
     print("\nMENU")
@@ -6,11 +9,10 @@ def mostrar_menu():
     print("2. Listar tarefas pendentes")
     print("3. Concluir tarefa")
     print("4. Remover tarefa")
-    print("5. Sair")
+    print("5. Abrir interface gráfica")
+    print("6. Sair")
 
 def main():
-    criar_tabela() 
-
     while True:
         mostrar_menu()
         escolha = input("Escolha uma opção: ")
@@ -18,7 +20,7 @@ def main():
         if escolha == "1":
             nome = input("Nome da tarefa: ")
             categoria = input("Categoria (opcional): ")
-            data = input("Data limite (DD-MM-AAAA): ")
+            data = input("Data limite (YYYY-MM-DD): ")
             prioridade = input("Prioridade (Alta, Média, Baixa): ")
             adicionar(nome, categoria, data, prioridade)
             print("Tarefa adicionada!")
@@ -43,6 +45,9 @@ def main():
             print("Tarefa removida!")
 
         elif escolha == "5":
+            iniciar_interface()
+
+        elif escolha == "6":
             print("Saindo do programa.")
             break
 
