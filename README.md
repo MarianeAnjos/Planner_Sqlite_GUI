@@ -22,22 +22,6 @@ Interagir via interface gráfica Tkinter e terminal
 
 ---
 
-## **Estrutura do Projeto**
-
-planner_sqlite_gui/
-├── main.py           → Arquivo principal que executa o programa
-├── db/               → Pasta para gerenciamento do banco de dados
-│   ├── database.py   → Configuração do SQLite e funções CRUD (Create, Read, Update, Delete)
-├── ui/               → Pasta para interface gráfica
-│   ├── interface.py  → Interface Tkinter para interagir com as tarefas
-├── models/           → Pasta opcional para representar a estrutura de uma Tarefa
-│   ├── tarefa.py     → Classe Tarefa
-├── tarefas.db        → Banco de dados SQLite (gerado automaticamente)
-├── README.md         → Documentação do projeto
-
-
----
-
 ## **Observações**
 > Este projeto usa SQLite** como banco de dados local, ideal para projetos simples e sem dependência de servidores.  
 > Interface gráfica desenvolvida com Tkinter, permitindo interação visual com as tarefas.  
