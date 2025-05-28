@@ -1,6 +1,6 @@
 # **Planner Automatizado em Python com SQLite**
 
-Projeto desenvolvido com foco em organização de tarefas, automação com banco de dados SQLite e interface gráfica com Tkinter.
+> Projeto desenvolvido com foco em organização de tarefas, automação com banco de dados SQLite e interface gráfica com Tkinter.
 
 ---
 
@@ -23,7 +23,7 @@ Interagir via interface gráfica Tkinter e terminal
 ---
 
 ## **Observações**
-> Este projeto usa SQLite** como banco de dados local, ideal para projetos simples e sem dependência de servidores.  
+> Este projeto usa SQLite como banco de dados local, ideal para projetos simples e sem dependência de servidores.  
 > Interface gráfica desenvolvida com Tkinter, permitindo interação visual com as tarefas.  
 > Foco no aprendizado e na organização de código, com separação entre banco, lógica e UI.  
 
