@@ -44,6 +44,5 @@ Interagir via interface gráfica Tkinter e terminal
 
 - A interface gráfica pode ser iniciada pelo menu do terminal ou diretamente com 
    ```bash
-
-interface.py.
+    interface.py.
 - Este projeto foi desenvolvido como parte de um estudo prático, aprimorando habilidades em Python, automação e manipulação de banco de dados.
