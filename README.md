@@ -35,9 +35,11 @@ Interagir via interface gráfica Tkinter e terminal
    git clone https://github.com/MarianeAnjos/Planner_Sqlite_GUI
 
 - Navegue até a pasta do projeto:
+   ```bash
     cd planner_sqlite_gui
 
 - Execute o scpirt principal:
+   ```bash
     python3 main.py
 
 - A interface gráfica pode ser iniciada pelo menu do terminal ou diretamente com interface.py.
